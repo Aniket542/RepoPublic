@@ -1,0 +1,101 @@
+2024-12-10 12:26:07,546 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-12-10 12:26:07,568 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-12-10 12:26:07,569 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-12-10 12:26:07,576 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-12-10 12:26:07,576 INFO o.a.j.JMeter: Version 5.6.3
+2024-12-10 12:26:07,576 INFO o.a.j.JMeter: java.version=17.0.13
+2024-12-10 12:26:07,576 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-12-10 12:26:07,577 INFO o.a.j.JMeter: os.name=Windows 10
+2024-12-10 12:26:07,577 INFO o.a.j.JMeter: os.arch=amd64
+2024-12-10 12:26:07,577 INFO o.a.j.JMeter: os.version=10.0
+2024-12-10 12:26:07,577 INFO o.a.j.JMeter: file.encoding=Cp1252
+2024-12-10 12:26:07,577 INFO o.a.j.JMeter: java.awt.headless=null
+2024-12-10 12:26:07,577 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-12-10 12:26:07,577 INFO o.a.j.JMeter: Available Processors =8
+2024-12-10 12:26:07,587 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-12-10 12:26:07,587 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-12-10 12:26:07,587 INFO o.a.j.JMeter: JMeterHome=C:\Users\Aniket.Pisolkar\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2024-12-10 12:26:07,587 INFO o.a.j.JMeter: user.dir  =C:\Users\Aniket.Pisolkar\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2024-12-10 12:26:07,587 INFO o.a.j.JMeter: PWD       =C:\Users\Aniket.Pisolkar\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin
+2024-12-10 12:26:07,588 INFO o.a.j.JMeter: IP: 192.168.10.227 Name: WJLP-1669 FullName: WJLP-1669.winjittechnologiespvtltd.local
+2024-12-10 12:26:07,614 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-12-10 12:26:07,837 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-12-10 12:26:08,972 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\Aniket.Pisolkar\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10 (1).jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.action.Command], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-10 12:26:09,318 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\Aniket.Pisolkar\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10 (1).jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.gui.plugin.MenuCreator], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-10 12:26:09,754 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_10-47ccbd8f64097dfb5f91f06849ab6794-gui
+2024-12-10 12:26:11,015 WARN o.j.r.PluginManagerMenuItem: Failed to load plugin updates info
+javax.net.ssl.SSLHandshakeException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:131) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:383) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:326) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:321) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1351) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.onConsumeCertificate(CertificateMessage.java:1226) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.consume(CertificateMessage.java:1169) ~[?:?]
+	at java.base/sun.security.ssl.SSLHandshake.consume(SSLHandshake.java:396) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:480) ~[?:?]
+	at java.base/sun.security.ssl.HandshakeContext.dispatch(HandshakeContext.java:458) ~[?:?]
+	at java.base/sun.security.ssl.TransportContext.dispatch(TransportContext.java:206) ~[?:?]
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:172) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1506) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1421) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426) ~[?:?]
+	at org.apache.http.conn.ssl.SSLSocketFactory.createLayeredSocket(SSLSocketFactory.java:570) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:554) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.14.jar:4.5.14]
+	at org.jmeterplugins.repository.JARSourceHTTP.execute(JARSourceHTTP.java:499) ~[jmeter-plugins-manager-1.10%20(1).jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.execute(JARSourceHTTP.java:494) ~[jmeter-plugins-manager-1.10%20(1).jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.getJSON(JARSourceHTTP.java:152) ~[jmeter-plugins-manager-1.10%20(1).jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.getRepositories(JARSourceHTTP.java:276) ~[jmeter-plugins-manager-1.10%20(1).jar:?]
+	at org.jmeterplugins.repository.JARSourceHTTP.getRepo(JARSourceHTTP.java:304) ~[jmeter-plugins-manager-1.10%20(1).jar:?]
+	at org.jmeterplugins.repository.PluginManager.load(PluginManager.java:71) ~[jmeter-plugins-manager-1.10%20(1).jar:?]
+	at org.jmeterplugins.repository.PluginManagerMenuItem$1.run(PluginManagerMenuItem.java:38) [jmeter-plugins-manager-1.10%20(1).jar:?]
+Caused by: sun.security.validator.ValidatorException: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:439) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1335) ~[?:?]
+	... 28 more
+Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.build(SunCertPathBuilder.java:148) ~[?:?]
+	at java.base/sun.security.provider.certpath.SunCertPathBuilder.engineBuild(SunCertPathBuilder.java:129) ~[?:?]
+	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:434) ~[?:?]
+	at java.base/sun.security.validator.PKIXValidator.engineValidate(PKIXValidator.java:306) ~[?:?]
+	at java.base/sun.security.validator.Validator.validate(Validator.java:264) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkTrusted(X509TrustManagerImpl.java:231) ~[?:?]
+	at java.base/sun.security.ssl.X509TrustManagerImpl.checkServerTrusted(X509TrustManagerImpl.java:132) ~[?:?]
+	at java.base/sun.security.ssl.CertificateMessage$T13CertificateConsumer.checkServerCerts(CertificateMessage.java:1335) ~[?:?]
+	... 28 more
+2024-12-10 12:26:17,985 INFO o.a.j.s.FileServer: Default base='C:\Users\Aniket.Pisolkar\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin'
+2024-12-10 12:26:17,988 INFO o.a.j.g.a.Load: Loading file: C:\Users\Aniket.Pisolkar\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\templates\CICDIntegration.jmx
+2024-12-10 12:26:17,988 INFO o.a.j.s.FileServer: Set new base='C:\Users\Aniket.Pisolkar\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\templates'
+2024-12-10 12:26:18,184 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-12-10 12:26:18,189 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-12-10 12:26:18,193 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-12-10 12:26:18,194 INFO o.a.j.s.SaveService: Loading file: C:\Users\Aniket.Pisolkar\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\templates\CICDIntegration.jmx
+2024-12-10 12:26:18,301 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-10 12:26:18,301 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-10 12:26:18,301 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-10 12:26:18,301 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-12-10 12:26:18,301 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-12-10 12:26:18,301 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-12-10 12:26:18,306 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-12-10 12:26:18,306 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2024-12-10 12:26:18,519 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-12-10 12:26:18,519 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-12-10 12:26:18,519 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-12-10 12:26:18,519 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-12-10 12:26:18,651 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\Aniket.Pisolkar\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10 (1).jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.ResultRenderer], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-10 12:26:18,681 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\Aniket.Pisolkar\apache-jmeter-5.6.3\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10 (1).jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.visualizers.RequestView], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-12-10 12:26:18,788 INFO o.a.j.s.FileServer: Set new base='C:\Users\Aniket.Pisolkar\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\templates'
